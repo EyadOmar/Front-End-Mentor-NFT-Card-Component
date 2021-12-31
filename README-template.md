@@ -22,9 +22,9 @@ Simple Card component I used flex-box to align itmes in card and the card itself
 ![mobile screenshot](./screenshots/mobile.png "Mobile")
 ![desktop screenshot](./screenshots/desktop.png "Desktop")
 
-### Links
-
 ## Process
+
+### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/card-component-using-flexbox-MOBrqNaGA)
 - Live Site URL: (https://eyadomar.github.io/Front-End-Mentor-NFT-Card-Component/)
