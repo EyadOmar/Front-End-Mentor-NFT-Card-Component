@@ -22,25 +22,18 @@ Simple Card component I used flex-box to align itmes in card and the card itself
 ![mobile screenshot](./screenshots/mobile.png "Mobile")
 ![desktop screenshot](./screenshots/desktop.png "Desktop")
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 ## Process
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/card-component-using-flexbox-MOBrqNaGA)
+- Live Site URL: (https://eyadomar.github.io/Front-End-Mentor-NFT-Card-Component/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
