@@ -1,0 +1,164 @@
+/* General  */
+:root {
+  /* ### Primary */
+
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  /* ### Neutral */
+
+  --main-blue: hsl(217, 54%, 11%);
+  --card-blue: hsl(216, 50%, 16%);
+  --line-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: var(--main-blue);
+}
+
+/* Components */
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+.flex {
+  display: flex;
+}
+.space-bet {
+  justify-content: space-between;
+}
+
+/* card  */
+.container {
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--card-blue);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 350px;
+}
+
+.nft {
+  position: relative;
+}
+.card .nft:hover {
+  cursor: pointer;
+}
+.card .nft:hover::before {
+  content: url(../images/icon-view.svg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+.card .nft:hover::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 255, 255, 0.6);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.card .nft img {
+  border-radius: 10px;
+}
+
+.card article {
+  padding-top: 20px;
+}
+.card article h1 {
+  color: var(--White);
+  font-size: 1.2rem;
+}
+.card article h1:hover {
+  cursor: pointer;
+  color: var(--Cyan);
+}
+.card article p {
+  padding-top: 10px;
+  color: hsl(214, 22%, 53%);
+  font-weight: 300;
+}
+
+.card .price {
+  padding: 20px 0;
+}
+.card .price img {
+  margin-right: 5px;
+}
+.card .price .left,
+.card .price .right {
+  align-items: center;
+  justify-content: center;
+}
+.card .price .left img {
+  width: 10px;
+}
+.card .price .left p {
+  color: var(--Cyan);
+}
+.card .price .right img {
+  width: 15px;
+}
+.card .price .right p {
+  color: var(--Soft-blue);
+}
+
+.card .creator {
+  padding: 10px 0;
+  border-top: 1px solid var(--line-blue);
+}
+.card .creator img {
+  width: 30px;
+  margin-right: 10px;
+  border: 1px solid var(--White);
+  border-radius: 50%;
+}
+.card .creator p {
+  color: var(--Soft-blue);
+  font-weight: 300;
+}
+.card .creator span {
+  color: var(--White);
+}
+.card .creator span:hover {
+  cursor: pointer;
+  color: var(--Cyan);
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--Soft-blue);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
